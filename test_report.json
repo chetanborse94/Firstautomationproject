@@ -1,0 +1,66 @@
+{
+  "test_summary": {
+    "total_tests": 9,
+    "passed": 5,
+    "failed": 4,
+    "pass_rate": "55.56%"
+  },
+  "test_results": [
+    {
+      "test_name": "Setup Browser",
+      "status": "PASSED",
+      "error": null,
+      "timestamp": "2026-05-07T14:52:53.086969"
+    },
+    {
+      "test_name": "Page Load",
+      "status": "PASSED",
+      "error": null,
+      "timestamp": "2026-05-07T14:52:54.743737"
+    },
+    {
+      "test_name": "Email Field Exists",
+      "status": "PASSED",
+      "error": null,
+      "timestamp": "2026-05-07T14:52:54.932135"
+    },
+    {
+      "test_name": "Password Field Exists",
+      "status": "PASSED",
+      "error": null,
+      "timestamp": "2026-05-07T14:52:54.946993"
+    },
+    {
+      "test_name": "Valid Login",
+      "status": "PASSED",
+      "error": null,
+      "timestamp": "2026-05-07T14:52:59.046237"
+    },
+    {
+      "test_name": "Invalid Email Rejection",
+      "status": "FAILED",
+      "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0x113ad03+10893]\n\tchromedriver!GetHandleVerifier [0x113ae34+109c4]\n\tchromedriver!(No symbol) [0xf51ea0]\n\tchromedriver!(No symbol) [0xf9b26a]\n\tchromedriver!(No symbol) [0xf9b50b]\n\tchromedriver!(No symbol) [0xfdd022]\n\tchromedriver!(No symbol) [0xfbd7c4]\n\tchromedriver!(No symbol) [0xfda814]\n\tchromedriver!(No symbol) [0xfbd516]\n\tchromedriver!(No symbol) [0xf908c9]\n\tchromedriver!(No symbol) [0xf91684]\n\tchromedriver!GetHandleVerifier [0x13d31c4+2a8d54]\n\tchromedriver!GetHandleVerifier [0x13ce7cd+2a435d]\n\tchromedriver!GetHandleVerifier [0x13eea85+2c4615]\n\tchromedriver!GetHandleVerifier [0x11544d8+2a068]\n\tchromedriver!GetHandleVerifier [0x115bddd+3196d]\n\tchromedriver!GetHandleVerifier [0x11438e8+19478]\n\tchromedriver!GetHandleVerifier [0x1143a95+19625]\n\tchromedriver!GetHandleVerifier [0x112cd8f+291f]\n\tKERNEL32!BaseThreadInitThunk [0x771ffcc9+19]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x778482ae+11e]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7784827e+ee]\n",
+      "timestamp": "2026-05-07T14:53:09.174032"
+    },
+    {
+      "test_name": "Invalid Password Rejection",
+      "status": "FAILED",
+      "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0x113ad03+10893]\n\tchromedriver!GetHandleVerifier [0x113ae34+109c4]\n\tchromedriver!(No symbol) [0xf51ea0]\n\tchromedriver!(No symbol) [0xf9b26a]\n\tchromedriver!(No symbol) [0xf9b50b]\n\tchromedriver!(No symbol) [0xfdd022]\n\tchromedriver!(No symbol) [0xfbd7c4]\n\tchromedriver!(No symbol) [0xfda814]\n\tchromedriver!(No symbol) [0xfbd516]\n\tchromedriver!(No symbol) [0xf908c9]\n\tchromedriver!(No symbol) [0xf91684]\n\tchromedriver!GetHandleVerifier [0x13d31c4+2a8d54]\n\tchromedriver!GetHandleVerifier [0x13ce7cd+2a435d]\n\tchromedriver!GetHandleVerifier [0x13eea85+2c4615]\n\tchromedriver!GetHandleVerifier [0x11544d8+2a068]\n\tchromedriver!GetHandleVerifier [0x115bddd+3196d]\n\tchromedriver!GetHandleVerifier [0x11438e8+19478]\n\tchromedriver!GetHandleVerifier [0x1143a95+19625]\n\tchromedriver!GetHandleVerifier [0x112cd8f+291f]\n\tKERNEL32!BaseThreadInitThunk [0x771ffcc9+19]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x778482ae+11e]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7784827e+ee]\n",
+      "timestamp": "2026-05-07T14:53:19.351454"
+    },
+    {
+      "test_name": "Empty Email Validation",
+      "status": "FAILED",
+      "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0x113ad03+10893]\n\tchromedriver!GetHandleVerifier [0x113ae34+109c4]\n\tchromedriver!(No symbol) [0xf51ea0]\n\tchromedriver!(No symbol) [0xf9b26a]\n\tchromedriver!(No symbol) [0xf9b50b]\n\tchromedriver!(No symbol) [0xfdd022]\n\tchromedriver!(No symbol) [0xfbd7c4]\n\tchromedriver!(No symbol) [0xfda814]\n\tchromedriver!(No symbol) [0xfbd516]\n\tchromedriver!(No symbol) [0xf908c9]\n\tchromedriver!(No symbol) [0xf91684]\n\tchromedriver!GetHandleVerifier [0x13d31c4+2a8d54]\n\tchromedriver!GetHandleVerifier [0x13ce7cd+2a435d]\n\tchromedriver!GetHandleVerifier [0x13eea85+2c4615]\n\tchromedriver!GetHandleVerifier [0x11544d8+2a068]\n\tchromedriver!GetHandleVerifier [0x115bddd+3196d]\n\tchromedriver!GetHandleVerifier [0x11438e8+19478]\n\tchromedriver!GetHandleVerifier [0x1143a95+19625]\n\tchromedriver!GetHandleVerifier [0x112cd8f+291f]\n\tKERNEL32!BaseThreadInitThunk [0x771ffcc9+19]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x778482ae+11e]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7784827e+ee]\n",
+      "timestamp": "2026-05-07T14:53:29.546360"
+    },
+    {
+      "test_name": "Empty Password Validation",
+      "status": "FAILED",
+      "error": "Message: \nStacktrace:\n\tchromedriver!GetHandleVerifier [0x113ad03+10893]\n\tchromedriver!GetHandleVerifier [0x113ae34+109c4]\n\tchromedriver!(No symbol) [0xf51ea0]\n\tchromedriver!(No symbol) [0xf9b26a]\n\tchromedriver!(No symbol) [0xf9b50b]\n\tchromedriver!(No symbol) [0xfdd022]\n\tchromedriver!(No symbol) [0xfbd7c4]\n\tchromedriver!(No symbol) [0xfda814]\n\tchromedriver!(No symbol) [0xfbd516]\n\tchromedriver!(No symbol) [0xf908c9]\n\tchromedriver!(No symbol) [0xf91684]\n\tchromedriver!GetHandleVerifier [0x13d31c4+2a8d54]\n\tchromedriver!GetHandleVerifier [0x13ce7cd+2a435d]\n\tchromedriver!GetHandleVerifier [0x13eea85+2c4615]\n\tchromedriver!GetHandleVerifier [0x11544d8+2a068]\n\tchromedriver!GetHandleVerifier [0x115bddd+3196d]\n\tchromedriver!GetHandleVerifier [0x11438e8+19478]\n\tchromedriver!GetHandleVerifier [0x1143a95+19625]\n\tchromedriver!GetHandleVerifier [0x112cd8f+291f]\n\tKERNEL32!BaseThreadInitThunk [0x771ffcc9+19]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x778482ae+11e]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x7784827e+ee]\n",
+      "timestamp": "2026-05-07T14:53:39.720732"
+    }
+  ],
+  "bugs_found": 0,
+  "bugs": []
+}
